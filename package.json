@@ -1,0 +1,25 @@
+{
+    "name": "fjw-blog",
+    "title": "Fjw Blog",
+    "author": "fengjianwei <fengjianwei617@gmail.com>",
+    "version": "0.0.1",
+    "homepage": "http://huxpro.github.io",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/feng-jianwei/feng-jianwei.github.io"
+    },
+    "bugs": "https://github.com/feng-jianwei/feng-jianwei.github.io/issues",
+    "devDependencies": {
+        "grunt": ">=1.3.0",
+        "grunt-contrib-less": "^2.0.0",
+        "grunt-contrib-uglify": "^4.0.1",
+        "grunt-contrib-watch": "^1.1.0"
+    },
+    "scripts": {
+		"build": "jekyll build",
+        "start": "bundle exec jekyll serve -w -l --host 0.0.0.0",
+        "dev": "grunt watch & npm run start",
+        "boil": "git push boilerplate boilerplate:master",
+        "push": "git push origin master --tag"
+    }
+}
