@@ -27,3 +27,5 @@ gem "webrick", "~> 1.8"                 # Ruby 3+ 需要，升级小版本
 gem "rake"
 gem "csv"
 gem "base64"
+gem "bigdecimal"
+
