@@ -26,3 +26,4 @@ gem "minima", "~> 2.5"                  # 保持或更新到 ~> 2.5.2
 gem "webrick", "~> 1.8"                 # Ruby 3+ 需要，升级小版本
 gem "rake"
 gem "csv"
+gem "base64"
